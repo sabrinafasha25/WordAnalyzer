@@ -16,15 +16,15 @@ class Calculation extends Component {
     this.calculate = () => {
       let vowel = /[aeiouAEIOU]/;
       let consonant = /[bcdfghjklmnpqrstvwxyzBCDFGHJKLMNPQRSTVWXYZ]/;
-      let str = this.state.word;
 
-      var res = str.split("");
+      let string = this.state.word;
+      var convert = string.split("");
 
       var numVowel = 0;
       var numConsonant = 0;
       var numAlphabet = 0;
 
-      for (let analyze of res) {
+      for (let analyze of convert) {
         if (analyze.match(vowel)) {
           numVowel++;
         } else if (analyze.match(consonant)) {
