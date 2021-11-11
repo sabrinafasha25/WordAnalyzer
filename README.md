@@ -10,7 +10,7 @@ Word Analyzer is a simple React Native mobile application which allows the user 
 
 <ul>
   <li>components: to create new components to be used in the app screen</li>
-  <li>config: to create colors config and default style config</li>
+  <li>config: to create colors scheme and default style config</li>
 </ul>
  
 </ol>
@@ -38,6 +38,7 @@ Word Analyzer is a simple React Native mobile application which allows the user 
   </ul>
   
   <li>Create calculate function as follows:</li>
+  
   <ul>
     <li>Initialize vowels and consonants array by assingning both uppercase and lowercase letter</li>
     <li>Initialize string and convert by using string.split() which converts the input word to a sets of array </li>
@@ -46,4 +47,29 @@ Word Analyzer is a simple React Native mobile application which allows the user 
     <li>Use if statement to allow calculate function to ignore spaces included</li>
     <li>Create new state after the calculation is made</li>
   </ul>
+  
+   <li>Create return view as follows:</li>
+  
+  <ul>
+    <li>Render first view to create app title</li>
+    <li>Render second view to include AppTextInput component</li>
+    <li>Render third view to include Calculate button</li>
+    <li>Render fourth view to include results of the calculation</li>
+     <li>Render all in React.Fragment</li>
+    <li>Include stylings in the view and create StyleSheet at the bottom</li>
+  
+  </ul>
  </ol>
+ 
+ ### Step 3 - App.js
+ 
+ <ol>
+
+  <li>Render SafeAreaView</li>
+  <li>Render Calculation by importing the Calculation from components folder</li>
+  <li>Create StyleSheet at the bottom</li>
+ </ol>
+ 
+ ## App Screen
+ 
+ ![AppScreen1](app/assets/AppScreen1 "San Juan Mountains")
