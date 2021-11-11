@@ -72,7 +72,8 @@ Word Analyzer is a simple React Native mobile application which allows the user 
  
  ## App Screen
  
- ![AppScreen1](AppScreen1.jpg)
- ![AppScreen1](AppScreen2.jpg)
+ <img src="https://github.com/sabrinafasha25/WordAnalyzer/blob/e4904b115d0aa382d50ac95bbdafd5fda37868a1/AppScreen1.jpg" width=20% height=20%>
+ <img src="https://github.com/sabrinafasha25/WordAnalyzer/blob/e4904b115d0aa382d50ac95bbdafd5fda37868a1/AppScreen2.jpg" width=20% height=20%>
+
  
 
